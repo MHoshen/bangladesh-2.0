@@ -266,6 +266,10 @@ nav {
   background-color: rgba(198, 228, 214, 1);
 }
 
+.donate-amount-container p:hover {
+  background-color: #32524b;
+}
+
 .donate-other-amount input {
   width: 900px;
   background-color: rgba(255, 255, 255, 1);
@@ -285,3 +289,58 @@ nav {
   background-color: rgba(0, 106, 80, 1);
 }
 /* #endregion donate */
+
+/* #region subscribe newsletter */
+.newsletter {
+  padding: 80px 100px;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+}
+.newsletter-input-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.newsletter-input-email input {
+  width: 300px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.newsletter-input-email-button {
+  padding: 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  font-size: 18px;
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+}
+/* #endregion subscribe newsletter */
+
+/* #region footer */
+
+footer {
+  padding: 50px 160px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+footer p {
+  font-size: 32px;
+}
+
+footer hr {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+/* #endregion footer */
