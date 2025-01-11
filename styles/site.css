@@ -2,3 +2,45 @@
   margin: 0;
   padding: 0;
 }
+
+/* #region shared styles */
+
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* #endregion shared styles */
+
+/* #region nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160px;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 32px;
+  margin: 31px 0;
+}
+
+.nav-btn-signin {
+  font-size: 18px;
+  color: #006a50;
+  margin: 24px 0;
+  padding: 15px 30px;
+  background-color: white;
+  border-color: #006a50;
+  border-radius: 8px;
+  border-width: 1px;
+}
+/* #endregion nav styles */
