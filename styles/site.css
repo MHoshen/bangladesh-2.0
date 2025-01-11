@@ -192,7 +192,50 @@ nav {
   margin-top: 12px;
 }
 
-.quote-by-designation {
+/* #endregion vision of future */
+
+/* #region recent news */
+
+.news-contrainers {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
 }
 
-/* #endregion vision of future */
+.news-container {
+  display: flex;
+  gap: 32px;
+  padding: 48px 48px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+}
+
+.news-image {
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.news-headline {
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.news-channel {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.news-published-date {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.btn-news {
+  padding: 13px 26px;
+  background-color: rgba(0, 106, 80, 1);
+  margin-top: 32px;
+}
+/* #endregion recent news */
