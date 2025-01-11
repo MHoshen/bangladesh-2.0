@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/* #region shared styles */
+/* #region shared */
 
 .fira-sans-normal {
   font-family: "Fira Sans", serif;
@@ -18,13 +18,30 @@
   font-weight: 700;
 }
 
+.medium {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #006a50;
+  color: white;
+}
+
 /* #endregion shared styles */
 
-/* #region nav styles */
+/* #region header */
+
+header {
+  margin: 0 160px;
+}
+
+/* #endregion header */
+
+/* #region nav */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 160px;
+
   align-items: center;
 }
 
@@ -43,4 +60,33 @@ nav {
   border-radius: 8px;
   border-width: 1px;
 }
-/* #endregion nav styles */
+/* #endregion nav */
+
+/* #region banner */
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 80px 59.99px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+
+.banner-title {
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+
+.banner-slogan {
+  font-size: 56px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+
+.banner-btn-explore {
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+/* #endregion banner */
