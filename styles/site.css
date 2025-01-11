@@ -79,6 +79,10 @@ section > .description {
   margin-top: 24px;
 }
 
+.center {
+  text-align: center;
+}
+
 /* #endregion shared styles */
 
 /* #region nav */
@@ -239,3 +243,45 @@ nav {
   margin-top: 32px;
 }
 /* #endregion recent news */
+
+/* #region donate  */
+
+.donate-amount-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.donate-amount {
+  padding: 40px;
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  margin-top: 32px;
+}
+
+.donate-amount-container p:nth-child(2) {
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.donate-other-amount input {
+  width: 900px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: none;
+  padding: 20px 40px;
+}
+
+.donate-other-amount input::placeholder {
+  font-size: 20px;
+  text-align: center;
+}
+
+.donate-btn {
+  padding: 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+}
+/* #endregion donate */
